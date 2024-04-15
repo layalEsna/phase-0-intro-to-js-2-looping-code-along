@@ -1,11 +1,11 @@
 // Code your solutions in this file
 //let names = ["Guadalupe ", "Ollie", "Aki"];
 
-function writeCards(arr,event){
+function writeCards(arr, event) {
     const message = []
-    for(let i=0; i<arr.length; i++){
+    for (let i = 0; i < arr.length; i++) {
         const note = `Thank you, ${arr[i]}, for the wonderful ${event} gift!`
-        
+
         message.push(note)
     }
     return message
@@ -13,15 +13,14 @@ function writeCards(arr,event){
 
 
 
-console.log(writeCards(["Guadalupe ", "Ollie", "Aki"],"surprise"))
+//console.log(writeCards(["Guadalupe ", "Ollie", "Aki"],"surprise"))
 
-function countDown(num){
-   
-    while(num >= 0){
-      console.log(num);
-      num--
+function countDown(num) {
+
+    while (num >= 0) {
+        console.log(num);
+        num--
     }
 }
 
-   console.log(countDown(5))
-    
+//console.log(countDown(5))
